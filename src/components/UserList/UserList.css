@@ -1,7 +1,3 @@
-body {
-  list-style: square;
-}
-
 .container {
   height: max-content;
   background-color: white;
@@ -11,13 +7,13 @@ body {
   margin: 2rem auto;
 }
 
+ul {
+  list-style: decimal;
+}
+
 li {
   text-align: start;
   border: 1px solid black;
   margin: 1rem auto;
   padding: 0.5rem 0.5rem;
 }
-
-/* .item p {
-  margin: 1rem 1rem;
-} */

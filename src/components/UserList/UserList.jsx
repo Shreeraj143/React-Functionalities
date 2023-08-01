@@ -5,7 +5,7 @@ const UserList = (props) => {
     <div className="container">
       <ul>
         {props.items.map((item) => (
-          <li>
+          <li key={item.id}>
             {item.enteredUsername} ({item.enteredAge} years old)
           </li>
         ))}
